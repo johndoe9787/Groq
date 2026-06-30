@@ -3,7 +3,8 @@
 
 ## Feature
 - Groq(): creates a connection instance
-- client.chat.completions.create(...): Sends your prompt to Groq's cloud servers. It specifies the AI model (qwen/qwen3-32b) and formats your prompt into a structured message history (role: user).Why it is used: It handles the netw
+- client.chat.completions.create(...): Sends your prompt to Groq's cloud servers. It specifies the AI model (qwen/qwen3-32b) and formats your prompt into a structured message history (role: user).
+- get_input(): Gets the prompt input from the user
 
 ## How to run
--Run in terminal `groqApp.py`
+-Run in terminal `python groqApp.py`
