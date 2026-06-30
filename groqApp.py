@@ -15,7 +15,7 @@ chat_completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": prompt,
+            "content": prompt
         }
     ],
     model="qwen/qwen3-32b",
